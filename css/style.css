@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(255, 254, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+#profilepic img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    margin: 2%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+
+}
+
+.myname {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: center;
+    gap: 0px;
+}
+
+.Introduce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    gap: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Position {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+    margin: 0px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+
+.textbox {
+    border: 2px solid #ff6a00;
+    border-radius: 100%;
+    padding: 60px;
+    margin: 10px;
+    text-align: center;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    gap: 10px;
+}
+
+.skill-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Profile-big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.Experience-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    gap: 0px;
+}
+
+.Experience-card {
+    max-width: 120px;
+    max-height: 120px;
+    border: 2px solid rgb(255, 106, 0);
+    border-radius: 100%;
+    padding: 60px;
+    margin: 10px;
+    text-align: center;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Experience-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 60px;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 24px;
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+
+.Contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.icon-row img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.icon-row {
+    background: #fffdf3;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
